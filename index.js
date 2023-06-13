@@ -5,7 +5,7 @@ const welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
 
 const excitedWelcomeMessage = "WELCOME TO FLATBOOK, " + currentUser.toUpperCase() + "!";
 
-//Alternative method to get the name inintal.
+// let userFirstIntial = currentUser.replace("race Hopper", "");
 const firstInitial = currentUser[0];
 const restOfName = currentUser.slice(1);
 
